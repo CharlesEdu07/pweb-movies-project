@@ -16,7 +16,7 @@ export default function SearchMovies({ key }) {
   const { query } = router;
 
   const [url, setUrl] = useState(
-    `http://www.omdbapi.com/?apikey=67b600f&s=${query.key}`
+    `https://www.omdbapi.com/?apikey=67b600f&s=${query.key}`
   );
 
   const { data, error } = useSWR(url, fetchMovies);
