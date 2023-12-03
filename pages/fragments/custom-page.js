@@ -9,3 +9,5 @@ export function CustomPage(props) {
     </div>
   );
 }
+
+export default CustomPage;

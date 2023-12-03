@@ -7,3 +7,5 @@ export function Footer() {
     </div>
   );
 }
+
+export default Footer;
