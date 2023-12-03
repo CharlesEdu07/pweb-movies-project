@@ -19,7 +19,7 @@ export default function Home() {
       <br></br>
       <Link href="/movies2">Pesquisando filmes (Movies2)</Link>
       <br></br>
-      <Link href="/movies3">Filmes carregados no cliente (Movies3)</Link>
+      <Link href="/movies3">Filmes carregados no cliente e rotas dinâmicas (Movies3)</Link>
       <br></br>
       <Link href="/extremeip">Carregar dados de IP</Link>
       <br></br>
