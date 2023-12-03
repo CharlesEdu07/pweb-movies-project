@@ -11,7 +11,7 @@ export default function Movies() {
     const fetchData = async () => {
       setLoading(true);
 
-      const apiUrl = `http://www.omdbapi.com/?apikey=67b600f`;
+      const apiUrl = `https://www.omdbapi.com/?apikey=67b600f`;
 
       let queryString = "";
       if (searchTerm) {

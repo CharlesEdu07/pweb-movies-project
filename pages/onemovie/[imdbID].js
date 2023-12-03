@@ -12,7 +12,7 @@ export default function MovieDetails({ imdbID }) {
   const { query } = router;
 
   const { data, error } = useSWR(
-    `http://www.omdbapi.com/?apikey=67b600f&i=${query.imdbID}`,
+    `https://www.omdbapi.com/?apikey=67b600f&i=${query.imdbID}`,
     fetcher
   );
 

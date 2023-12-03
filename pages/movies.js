@@ -10,7 +10,7 @@ export default function Movies({ initialData }) {
     event.preventDefault();
 
     const res = await fetch(
-      `http://www.omdbapi.com/?apikey=67b600f&s=${searchTerm}&y=${searchYear}`
+      `https://www.omdbapi.com/?apikey=67b600f&s=${searchTerm}&y=${searchYear}`
     );
     const newData = await res.json();
 
