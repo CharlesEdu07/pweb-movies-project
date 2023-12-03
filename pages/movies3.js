@@ -4,8 +4,6 @@ import { Button, Card, Spin, Row, Col, Input } from "antd";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const { Meta } = Card;
-
 async function theFetcher(url) {
   if (url === null || url === "") return { Search: "" };
 
@@ -33,7 +31,7 @@ export function TheMovies({ data, show }) {
             style={{ width: 240, height: 500, float: "left", margin: 8 }}
             cover={<img alt={movie.Title} src={movie.Poster} />}
           >
-            <Meta title={movie.Title} description={movie.Year} />
+            <Card.Meta title={movie.Title} description={movie.Year} />
           </Card>
         </Link>
       ))}

@@ -32,7 +32,7 @@ export default function MovieDetails({ imdbID }) {
   if (!data) return <Spin>Aguarde...</Spin>;
 
   return (
-    <div style={{ padding: 100 }}>
+    <div style={{ padding: 50 }}>
       <BackBtn onClick={handleBack}></BackBtn>
       <h1>{data.Title}</h1>
       <img src={data.Poster} alt={data.Title} style={{ marginBottom: 30 }} />
