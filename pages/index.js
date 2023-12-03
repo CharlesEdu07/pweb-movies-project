@@ -23,7 +23,7 @@ export default function Home() {
       <br></br>
       <Link href="/extremeip">Carregar dados de IP</Link>
       <br></br>
-      <Link href="/movies33">Pesquisando filmes (Movies33)</Link>
+      <Link href="/movies33">Pesquisando filmes client-side (Movies33)</Link>
       <div>
         <h1>Meu Aplicativo</h1>
         <CustomPage text="Este é um texto passado por uma propriedade." />
