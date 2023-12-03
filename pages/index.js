@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { Header } from "./fragments/Header";
-import { Footer } from "./fragments/Footer";
+import { Header } from "./fragments/header";
+import { Footer } from "./fragments/footer";
 import { CustomPage } from "./fragments/custom-page";
 
 export default function Home() {
